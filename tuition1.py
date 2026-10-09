@@ -89,4 +89,7 @@ def main(argv):
 if __name__ == '__main__':
     import sys
 
+
     main(sys.argv)
+    #引用sys是为了在以后方便传参 不过这里并没有传入参数 只是tuition系列习惯这么写
+    #以后传参时可以使用   加参数（颜色、尺寸、模型文件路径）时，直接读 argv 就行
